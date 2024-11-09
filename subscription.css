@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+
+.col-1{
+    flex-basis: 50%;
+    flex-grow: 1;
+    background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8),url());
+    background-size: cover;
+    background-position: center;
+    min-height: inherit;
+}
+
+.col-2{
+    flex-basis: 50%;
+    flex-grow: 1;
+}

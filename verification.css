@@ -1,0 +1,72 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('https://www.google.com/url?sa=i&url=https%3A%2F%2Fm.youtube.com%2Fwatch%3Fv%3D1s8GAm95XrM&psig=AOvVaw1rF9RVgkA5Sbio9zw5aZ9L&ust=1731146087389000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCLCD9_qay4kDFQAAAAAdAAAAABAE');
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow-y: auto;
+}
+
+.verification-container {
+    max-width: 600px;
+    background-color: rgba(255, 255, 255, 0.8);  /* Transparent white background for readability */
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow-y: auto;
+    width: 100%;
+    margin-top: 20px;  /* Add space from top */
+}
+
+h2 {
+    text-align: center;
+    color: #333;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    font-size: 16px;
+    color: #555;
+}
+
+input[type="text"], input[type="file"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+.otp-btn {
+    background-color: #FF5722;  /* Color for the OTP verification button */
+    margin-left: 10px;
+    font-size: 14px;
+    margin-top: 10px;  /* Moves the button down a little */
+}
+
+.otp-btn:hover {
+    background-color: #E64A19;
+}
